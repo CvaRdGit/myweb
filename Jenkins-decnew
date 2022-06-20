@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent {label 'Tomcat-Maven'}
     
     environment{
         PATH = "/opt/maven3/bin:$PATH"
